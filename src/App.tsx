@@ -85,6 +85,11 @@ function PublicRoute({ children }: { children: React.ReactNode }) {
   return <>{children}</>
 }
 
+import { CareerChatWidget } from "./components/CareerChatWidget";
+
+
+
+
 export default function App() {
   return (
     <AuthProvider>
